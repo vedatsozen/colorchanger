@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACKGROUND - FONT COLOR EDİTOR by Vedat Sözen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="editor">
+    <label>Background Color</label>
+    <input id="color" type="color" oninput="changebg()">
+
+    <label>Font Color</label>
+    <input id="fontcolor" type="color" oninput="changefc()">
+    </div>
+
+    <h1 id="font">Change My Color</h1>
+
+    <p>Thanks for using this editor<br>Coded by Vedat Sözen</p>
+</body>
+
+<script>
+
+function changebg(){
+
+let bgcolor = document.getElementById("color").value;
+document.body.style.backgroundColor = bgcolor ;
+
+}
+
+function changefc(){
+
+let fcolor = document.getElementById("fontcolor").value;
+document.getElementById("font").style.color = fcolor ;
+
+}
+</script>
+</html>

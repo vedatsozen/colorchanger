@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding:5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+#editor {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom:2px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+label {
+    color: white;
+}
